@@ -1,7 +1,7 @@
 <template>
-  <transition name="notice" @before-leave="destoryNotice">
+  <transition name="yn-notice" @before-leave="destoryNotice">
     <div 
-      :class="['message-fade', type ? `message-fade-${type}` : '', center ? 'message-fade-center' : '']" 
+      :class="['yn-message-fade', type ? `message-fade-${type}` : '', center ? 'message-fade-center' : '']" 
       v-show="visable" 
       :style="{top: top+'px'}"
       @mouseenter="clearTimer"

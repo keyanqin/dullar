@@ -1,4 +1,4 @@
-.message-fade{
+.yn-message-fade{
     width:200px;
     color: #2a2a2a;
     background-color: #fff;
@@ -35,8 +35,8 @@
       margin-right: 4px;
     }
 }
-.notice-enter-active,
-.notice-leave-active{
+.yn-notice-enter-active,
+.yn-notice-leave-active{
     opacity: 0;
     transform: translate(-50%, -50%);
 }
